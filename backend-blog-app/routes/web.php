@@ -22,12 +22,6 @@ Auth::routes([
     'verify' => false, // Email Verification Routes...
 ]);
 
-//ADMIN PANEL
-//Route::prefix('app')->as('app.')->group(function () {
-//    Route::get('/app/login', [AppAuthController::class, 'login'])->name('app.login');
-//    Route::post('/app/loginAction', [AppAuthController::class, 'loginAction'])->name('app.loginAction');
-//    Route::get('/app/logout', [AppAuthController::class, 'logout'])->name('app.logout');
-//});
 // DASHBOARD
 Route::get('/dashboard', [DashboardController::class, 'index'])->name('dashboard');
 

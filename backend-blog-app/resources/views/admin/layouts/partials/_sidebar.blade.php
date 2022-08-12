@@ -8,7 +8,6 @@
                     <span class="pcoded-mtext">Dashboard</span>
                 </a>
             </li>
-
         </ul>
     </div>
 </nav>
